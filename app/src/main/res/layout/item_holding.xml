@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvSymbol"
+        style="@style/Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16dp"
+        android:layout_marginTop="@dimen/space_12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="ASHOKLEY" />
+
+
+    <TextView
+        android:id="@+id/tvLtpRight"
+        style="@style/Muted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_5dp"
+        android:text="@string/label_ltp"
+        app:layout_constraintBottom_toBottomOf="@id/tvLtpRightValue"
+        app:layout_constraintEnd_toStartOf="@id/tvLtpRightValue"
+        app:layout_constraintTop_toTopOf="@id/tvLtpRightValue" />
+
+
+    <TextView
+        android:id="@+id/tvLtpRightValue"
+        style="@style/Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_16dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvSymbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvSymbol" />
+
+    <TextView
+        android:id="@+id/tvNetQtyLabel"
+        style="@style/Muted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16dp"
+        android:layout_marginTop="@dimen/space_16dp"
+        android:layout_marginBottom="@dimen/space_16dp"
+        android:text="@string/label_net_qty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSymbol" />
+
+    <TextView
+        android:id="@+id/tvNetQtyValue"
+        style="@style/Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_5dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvNetQtyLabel"
+        app:layout_constraintStart_toEndOf="@id/tvNetQtyLabel"
+        app:layout_constraintTop_toTopOf="@id/tvNetQtyLabel" />
+
+    <TextView
+        android:id="@+id/tvPnlLabel"
+        style="@style/Muted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_5dp"
+        android:text="@string/p_amp_l"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvNetQtyLabel"
+        app:layout_constraintEnd_toStartOf="@id/tvPnlValue" />
+
+    <TextView
+        android:id="@+id/tvPnlValue"
+        style="@style/Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_16dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvPnlLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPnlLabel"
+        tools:text="₹ 0.00" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1dp"
+        android:background="@color/divider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

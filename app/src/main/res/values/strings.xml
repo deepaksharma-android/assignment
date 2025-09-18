@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="tab_positions">POSITIONS</string>
+    <string name="tab_holdings">HOLDINGS</string>
+    <string name="label_net_qty">NET QTY:</string>
+    <string name="label_ltp">LTP:</string>
+    <string name="label_current_value">Current value*</string>
+    <string name="label_total_investment">Total investment*</string>
+    <string name="content_toggle">toggle</string>
+    <string name="error_unknown">Something went wrong</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="view">view</string>
+    <string name="search">search</string>
+    <string name="sort">sort</string>
+    <string name="p_amp_l"><![CDATA[P&L:]]></string>
+    <string name="today_39_s_profit_amp_loss"><![CDATA[Today\'s Profit & Loss*]]></string>
+    <string name="profit_amp_loss"><![CDATA[Profit & Loss*]]></string>
+    <string name="positions">Positions</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="positions_disabled">Positions (disabled)</string>
+</resources>

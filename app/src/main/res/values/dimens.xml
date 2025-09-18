@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic spaces (dp) -->
+    <dimen name="space_0dp">0dp</dimen>
+    <dimen name="space_1dp">1dp</dimen>
+    <dimen name="space_4dp">4dp</dimen>
+    <dimen name="space_5dp">5dp</dimen>
+    <dimen name="space_6dp">6dp</dimen>
+    <dimen name="space_8dp">8dp</dimen>
+    <dimen name="space_12dp">12dp</dimen>
+    <dimen name="space_16dp">16dp</dimen>
+    <dimen name="space_15dp">15dp</dimen>
+    <dimen name="space_24dp">24dp</dimen>
+    <dimen name="space_30dp">30dp</dimen>
+    <dimen name="space_40dp">40dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+    <dimen name="space_50dp">50dp</dimen>
+    <dimen name="space_55dp">55dp</dimen>
+
+    <!-- Elevation/Stroke: use space_4dp -->
+
+    <!-- Heights -->
+    <dimen name="height_tab_40dp">40dp</dimen>
+
+    <!-- Text sizes (sp) -->
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+</resources>
+
